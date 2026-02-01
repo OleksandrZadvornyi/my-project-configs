@@ -1,0 +1,22 @@
+{
+  "name": "my-project-configs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Universal configuration for Husky, Prettier, and Semantic Release",
+  "scripts": {
+    "prepare": "husky",
+    "format": "prettier --write .",
+    "lint-staged": "lint-staged"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.3.0",
+    "@commitlint/config-conventional": "^20.3.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.4",
+    "semantic-release": "^25.0.2"
+  }
+}
